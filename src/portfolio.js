@@ -20,7 +20,8 @@ const greeting = {
   subTitle: emoji(
     "Senior Programmer specializing in Unreal Engine, AR/VR simulations, and AI integration."
   ),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+  resumeLink:
+    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
   displayGreeting: true
 };
 
@@ -37,20 +38,24 @@ const skillsSection = {
   title: "What I do",
   subTitle: "GAME & SIMULATION DEVELOPER WITH AI EXPERTISE",
   skills: [
-    emoji("⚡ Develop interactive environments in Unreal Engine using C++ and Blueprints"),
+    emoji(
+      "⚡ Develop interactive environments in Unreal Engine using C++ and Blueprints"
+    ),
     emoji("⚡ Build realistic AR/VR simulations with Unity and Unreal Engine"),
     emoji("⚡ Integrate AI/LLMs using Nvidia ACE and custom architectures"),
-    emoji("⚡ Deploy scalable solutions on AWS with Pixel Streaming and WebSockets")
+    emoji(
+      "⚡ Deploy scalable solutions on AWS with Pixel Streaming and WebSockets"
+    )
   ],
   softwareSkills: [
-    { skillName: "C++", fontAwesomeClassname: "fas fa-code" },
-    { skillName: "Unreal Engine", fontAwesomeClassname: "fas fa-gamepad" },
-    { skillName: "Unity", fontAwesomeClassname: "fas fa-vr-cardboard" },
-    { skillName: "WebSockets", fontAwesomeClassname: "fas fa-plug" },
-    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" },
-    { skillName: "Nvidia ACE", fontAwesomeClassname: "fas fa-microchip" },
-    { skillName: "LLMs", fontAwesomeClassname: "fas fa-brain" }
+    {skillName: "C++", fontAwesomeClassname: "fas fa-code"},
+    {skillName: "Unreal Engine", fontAwesomeClassname: "fas fa-gamepad"},
+    {skillName: "Unity", fontAwesomeClassname: "fas fa-vr-cardboard"},
+    {skillName: "WebSockets", fontAwesomeClassname: "fas fa-plug"},
+    {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "AWS", fontAwesomeClassname: "fab fa-aws"},
+    {skillName: "Nvidia ACE", fontAwesomeClassname: "fas fa-microchip"},
+    {skillName: "LLMs", fontAwesomeClassname: "fas fa-brain"}
   ],
   display: true
 };
@@ -74,10 +79,10 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true,
   experience: [
-    { Stack: "Game Development", progressPercentage: "90%" },
-    { Stack: "AR/VR Simulation", progressPercentage: "85%" },
-    { Stack: "AI & LLM Integration", progressPercentage: "80%" },
-    { Stack: "Cloud Deployment", progressPercentage: "75%" }
+    {Stack: "Game Development", progressPercentage: "90%"},
+    {Stack: "AR/VR Simulation", progressPercentage: "85%"},
+    {Stack: "AI & LLM Integration", progressPercentage: "80%"},
+    {Stack: "Cloud Deployment", progressPercentage: "75%"}
   ],
   displayCodersrank: false
 };
@@ -132,62 +137,92 @@ const bigProjects = {
     {
       image: require("./assets/images/vr_solar_logo.png"),
       projectName: "VR Solar Panel Installation - UE",
-      projectDesc: "Immersive VR training for solar panel setup in Unreal Engine.",
-      footerLink: [ { name: "Watch Video", url: "https://youtu.be/kddEKbPHbRg?si=t3YwckDEIafEkmiF" } ]
+      projectDesc:
+        "Immersive VR training for solar panel setup in Unreal Engine.",
+      footerLink: [
+        {
+          name: "Watch Video",
+          url: "https://youtu.be/kddEKbPHbRg?si=t3YwckDEIafEkmiF"
+        }
+      ]
     },
     {
       image: require("./assets/images/cerebrus_logo.png"),
       projectName: "Cerebrus - Runtime Interview Avatar",
-      projectDesc: "Managed development pipeline for a Metahuman avatar powered by LLMs and WebSockets.",
-      footerLink: [ { name: "Explore", url: "https://cerebrus.griphic.com/how-to-use" } ]
+      projectDesc:
+        "Managed development pipeline for a Metahuman avatar powered by LLMs and WebSockets.",
+      footerLink: [
+        {name: "Explore", url: "https://cerebrus.griphic.com/how-to-use"}
+      ]
     },
     {
       image: require("./assets/images/supermarket_logo.png"),
       projectName: "Metaverse Supermarket - UE",
       projectDesc: "Created a virtual supermarket simulation in Unreal Engine.",
-      footerLink: [ { name: "Watch Video", url: "https://youtu.be/9M0kN9xKEOE?si=0hviCpF0x9Eouh_j" } ]
+      footerLink: [
+        {
+          name: "Watch Video",
+          url: "https://youtu.be/9M0kN9xKEOE?si=0hviCpF0x9Eouh_j"
+        }
+      ]
     },
     {
       image: require("./assets/images/vr_agri_logo.png"),
       projectName: "VR Agriculture Simulation - Unity",
       projectDesc: "Interactive farming simulation built in Unity.",
-      footerLink: [ { name: "Watch Video", url: "https://youtu.be/PYdbn2UIN34?si=Zz-WMy-P1EWSlkBd" } ]
+      footerLink: [
+        {
+          name: "Watch Video",
+          url: "https://youtu.be/PYdbn2UIN34?si=Zz-WMy-P1EWSlkBd"
+        }
+      ]
     },
     {
       image: require("./assets/images/vr_drone_logo.png"),
       projectName: "VR Drone Simulator - Unity",
       projectDesc: "Realistic drone flight training simulation in Unity.",
-      footerLink: [ { name: "Watch Video", url: "https://youtu.be/W7xqSQCGWKY?si=JKZJhrGlApYb7muo" } ]
+      footerLink: [
+        {
+          name: "Watch Video",
+          url: "https://youtu.be/W7xqSQCGWKY?si=JKZJhrGlApYb7muo"
+        }
+      ]
     },
     {
       image: require("./assets/images/guardian_logo.png"),
       projectName: "Guardian Victor - UE",
       projectDesc: "Action combat game built in Unreal Engine.",
-      footerLink: [ { name: "Watch Video", url: "https://youtu.be/M2pGE1KsZYQ" } ]
+      footerLink: [{name: "Watch Video", url: "https://youtu.be/M2pGE1KsZYQ"}]
     },
     {
       image: require("./assets/images/meta_combat_logo.png"),
       projectName: "Meta Combat - UE",
       projectDesc: "Multiplayer combat simulation in Unreal Engine.",
-      footerLink: [ { name: "Watch Video", url: "https://youtu.be/WSrJHLwcXu8" } ]
+      footerLink: [{name: "Watch Video", url: "https://youtu.be/WSrJHLwcXu8"}]
     },
     {
       image: require("./assets/images/zodiak_logo.png"),
       projectName: "Zodiac Card Game - UE",
       projectDesc: "Digital card game experience in Unreal Engine.",
-      footerLink: [ { name: "Watch Video", url: "https://youtu.be/6CGwilecwlA" } ]
+      footerLink: [{name: "Watch Video", url: "https://youtu.be/6CGwilecwlA"}]
     },
     {
       image: require("./assets/images/1971_logo.png"),
       projectName: "1971 - Indian Naval Front (Steam)",
-      projectDesc: "Developed flight mechanics code for realistic naval aviation simulation.",
-      footerLink: [ { name: "View on Steam", url: "https://store.steampowered.com/app/957950/1971_Indian_Naval_Front/" } ]
+      projectDesc:
+        "Developed flight mechanics code for realistic naval aviation simulation.",
+      footerLink: [
+        {
+          name: "View on Steam",
+          url: "https://store.steampowered.com/app/957950/1971_Indian_Naval_Front/"
+        }
+      ]
     },
     {
       image: require("./assets/images/tridasha_logo.png"),
       projectName: "Tridasha",
       projectDesc: "Created core gameplay mechanics.",
-      footerLink: [ { name: "Watch Video", url: "https://youtu.be/gG0j1OqrXAE" } ]
+      footerLink: [{name: "Watch Video", url: "https://youtu.be/gG0j1OqrXAE"}]
     }
   ],
   display: true
@@ -201,14 +236,14 @@ const contactInfo = {
   email_address: "soumyadarshanpattanaik.66@gmail.com"
 };
 
-const openSource = { showGithubProfile: true, display: false };
-const achievementSection = { display: false };
-const blogSection       = { display: false };
-const talkSection       = { display: false };
-const resumeSection     = { display: false };
-const podcastSection    = { display: false };
-const twitterDetails    = { display: false };
-const isHireable        = false;
+const openSource = {showGithubProfile: true, display: false};
+const achievementSection = {display: false};
+const blogSection = {display: false};
+const talkSection = {display: false};
+const resumeSection = {display: false};
+const podcastSection = {display: false};
+const twitterDetails = {display: false};
+const isHireable = false;
 
 export {
   illustration,

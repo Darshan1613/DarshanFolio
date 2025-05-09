@@ -26,13 +26,11 @@ jobs:
         with:
           node-version: 18.x
 
-      - name: Update npm 🚀
-        run: npm install -g npm@latest
-
-      - name: Install and Build 🔧 # Build the Project
+      - name: Install and Build 🔧
         run: |
           npm install
           npm run build
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
